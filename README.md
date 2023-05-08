@@ -10,6 +10,36 @@ This repository is divided into 3 parts:
 
 <hr>
 
+## Environment Setup
+
+* open command prompt in your working directory
+* create a new environment in your working directory
+```
+conda create -p {env_name} python=3.7 -y
+```
+* activate the env
+```
+activate {env_name}/
+```
+* install the libraries
+```
+pip install -r requiremnts.txt
+```
+* install the nltk modules
+    * open python on terminal using the following command
+    ```
+    python
+    ```
+    * import nltk library and download the modules
+    ```python
+    import nltk
+    nltk.download()
+    ```
+
+You are all set to implement and practice NLP
+
+<hr>
+
 ## NLP Fundamentals
 1. Tokenization
 > It is the process of breaking down a text paragraph into smaller chunks such as words or sentence. Token is a single entity that is building blocks for sentence or paragraph. Tokenization is also known as text segmentation or lexical analysis. Tokenization can be done by using NLTK library in python. It is a library that can be used for NLP. It contains packages to make machines understand human language and reply to it with an appropriate response. It can be used to perform tasks like tokenization, stemming, classification, tagging, parsing, etc.<br>
