@@ -41,14 +41,25 @@ You are all set to implement and practice NLP
 <hr>
 
 ## NLP Fundamentals
-1. Tokenization
+
+### Tokenization
 > It is the process of breaking down a text paragraph into smaller chunks such as words or sentence. Token is a single entity that is building blocks for sentence or paragraph. Tokenization is also known as text segmentation or lexical analysis. Tokenization can be done by using NLTK library in python. It is a library that can be used for NLP. It contains packages to make machines understand human language and reply to it with an appropriate response. It can be used to perform tasks like tokenization, stemming, classification, tagging, parsing, etc.<br>
 > **Code:** [Tokenization](Fundamentals/tokenizer.ipynb)
 
-2. Stemming
+### Stemming
 > Stemming is the process of reducing a word to its word stem that affixes to suffixes and prefixes or to the roots of words known as a lemma. Stemming is important in natural language understanding (NLU) and natural language processing (NLP). Stemming is also a part of queries and Internet search engines. Stemming is the process of producing morphological variants of a root/base word. Stemming programs are commonly referred to as stemming algorithms or stemmers. <u>It is not neccessary that stemming generates a meaningful word</u><br>
 > **Code:** [Stemming](Fundamentals/stemming.ipynb)
 
-3. Lemmatizing
+### Lemmatizing
 > lemmatizing is the process of converting different forms of word into a root/base word. It is similar to stemming but the only difference is that it derives a meaningfull word unlike stemming. Since it tries to derive a meaningfull word thus it takes more time than stemming. It is required in the cases in which we want semantically correct data for evaluation.
 > **Code:** [Lemmatization](Fundamentals/lemmatization.ipynb)
+
+### Bag-Of-Words
+> Bag of words is a representation of text that describes the occurrence of words within a document. It involves two things:<br>
+> 1. A vocabulary of known words.
+> 2. A measure of the presence of known words.<br>
+> It is called a “bag” of words, because any information about the order or structure of words in the document is discarded. The model is only concerned with whether known words occur in the document, not where in the document.<br>
+> We can create vectors using bag-of-words by the following methods:<br>
+> count the number of times each word appears in a sentence.<br>
+> represent the count as a vector.<br>
+> **Code:** [Bag-Of-Words](Fundamentals/bag_of_words.ipynb)
