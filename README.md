@@ -59,7 +59,5 @@ You are all set to implement and practice NLP
 > 1. A vocabulary of known words.
 > 2. A measure of the presence of known words.<br>
 > It is called a “bag” of words, because any information about the order or structure of words in the document is discarded. The model is only concerned with whether known words occur in the document, not where in the document.<br>
-> We can create vectors using bag-of-words by the following methods:<br>
-> count the number of times each word appears in a sentence.<br>
-> represent the count as a vector.<br>
+> We can create vectors using bag-of-words by counting the number of times each word appears in a sentence and representing the count as a vector.<br>
 > **Code:** [Bag-Of-Words](Fundamentals/bag_of_words.ipynb)
