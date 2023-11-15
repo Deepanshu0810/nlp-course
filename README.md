@@ -6,7 +6,7 @@ NLP is a way for computers to analyze, understand, and derive meaning from human
 This repository is divided into 3 parts:
 1. [**NLP FUNDAMENTALS**](#nlp-fundamentals) - This part deals with the basics of NLP and how to perform NLP tasks using Python.
 2. **RNN** - This part deals with advanced NLP concepts and how to perform advanced NLP tasks using Python.
-3. **NLP PROJECTS** - This part deals with the implementation of NLP concepts and how to perform NLP tasks using Python.
+3. [**NLP PROJECTS**](./Basic%20NLP%20Models/) - This part deals with the implementation of NLP concepts and how to perform NLP tasks using Python.
 
 <hr>
 
@@ -61,3 +61,9 @@ You are all set to implement and practice NLP
 > It is called a “bag” of words, because any information about the order or structure of words in the document is discarded. The model is only concerned with whether known words occur in the document, not where in the document.<br>
 > We can create vectors using bag-of-words by counting the number of times each word appears in a sentence and representing the count as a vector.<br>
 > **Code:** [Bag-Of-Words](Fundamentals/bag_of_words.ipynb)
+
+### TF-IDF
+> TF-IDF stands for Term Frequency-Inverse Document Frequency. It is a numerical statistic that is intended to reflect how important a word is to a document in a collection or corpus. It is often used as a weighting factor in searches of information retrieval, text mining, and user modeling. The tf-idf value increases proportionally to the number of times a word appears in the document and is offset by the number of documents in the corpus that contain the word, which helps to adjust for the fact that some words appear more frequently in general.<br>
+> term-frequency formula = (number of times a word appears in a document) / (total number of words in the document)<br>
+> inverse-document-frequency formula = log_e(total number of documents / number of documents with term t in it)<br>
+> **Code:** [TF-IDF](Fundamentals/tf_idf.ipynb)
